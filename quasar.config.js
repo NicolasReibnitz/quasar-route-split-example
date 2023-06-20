@@ -71,7 +71,7 @@ module.exports = configure(function (ctx) {
 			// publicPath: '/',
 			// analyze: true,
 			env: {
-				PAGE_MODE: targetRoute
+				TARGET: targetRoute
 			},
 			// rawDefine: {}
 			// ignorePublicFolder: true,

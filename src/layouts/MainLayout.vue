@@ -29,9 +29,9 @@
 	import EssentialLink from 'components/EssentialLink.vue';
 
 	let linksList;
-	const pageMode = process.env.PAGE_MODE;
+	const pageMode = process.env.TARGET;
 
-	if (process.env.PAGE_MODE === 'calvin') {
+	if (process.env.TARGET === 'calvin') {
 		linksList = [
 			{
 				title: 'Home',
@@ -46,7 +46,7 @@
 				link: '/#/calvin'
 			}
 		];
-	} else if (process.env.PAGE_MODE === 'hobbes') {
+	} else if (process.env.TARGET === 'hobbes') {
 		linksList = [
 			{
 				title: 'Home',
